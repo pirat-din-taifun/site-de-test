@@ -1,0 +1,77 @@
+@media screen and (max-width: 960px) {
+  .navbar p {
+    display: none;
+  }
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .div1,
+  .div2,
+  .div3,
+  .div4,
+  .div5 {
+    height: 100vh;
+  }
+  .div1,
+  .div2,
+  .div3,
+  .div5 {
+    height: fit-content;
+  }
+
+  /* sericii */
+  .serv {
+    flex-direction: column;
+    gap: 10vw;
+  }
+
+  .serv > div {
+    width: 100%;
+  }
+
+  .serv div img {
+    width: 80%;
+    height: auto;
+  }
+
+  /* comentarii */
+  .comm {
+    flex-direction: column;
+    gap: 5vh;
+  }
+  .comm div {
+    width: 100%;
+  }
+
+  /* cere oferta */
+  .div5 {
+    display: table-column;
+    width: 80%;
+  }
+
+  .elemente-de-contact > div {
+    width: 180%;
+    overflow: auto;
+  }
+
+  .program {
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+  }
+
+  /* sliding menu */
+  .dropdown-menu {
+    width: 50vw;
+    left: -50vw;
+  }
+
+  .dropdown-menu.active {
+    left: 0;
+  }
+
+  .trimite-mesaj {
+    width: 50%;
+  }
+}
