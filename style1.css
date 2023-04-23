@@ -56,7 +56,6 @@ hr {
 .navbar {
   background-color: var(--mint-cream);
   position: sticky;
-  /* position: absolute; */
   top: 0;
   display: flex;
   justify-content: space-evenly;
@@ -64,7 +63,6 @@ hr {
   height: 7vh;
   border-bottom: none;
   background-color: var(--cadet-gray);
-  /* background-color: rgba(245, 245, 220, 0); */
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
@@ -112,7 +110,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: url(img_src/poza_magazin.jpg); */
   background-image: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5),
@@ -408,6 +405,22 @@ footer p {
   color: rgb(179, 179, 179);
 }
 
+@media all and (max-height: 700px) {
+  .div1 {
+    height: 60vh;
+  }
+  .div3 {
+    margin-top: 10vh;
+  }
+  .comm div {
+    height: 40vh;
+  }
+
+  .div4 {
+    margin-top: 20vh;
+  }
+}
+
 @media screen and (max-width: 960px) {
   .navbar p {
     display: none;
@@ -415,7 +428,7 @@ footer p {
   .navbar {
     justify-content: space-around;
   }
-
+  .div1,
   .div2,
   .div3,
   .div5 {
@@ -475,21 +488,5 @@ footer p {
 
   .trimite-mesaj {
     width: 50%;
-  }
-}
-
-@media all and (max-height: 700px) {
-  .div1 {
-    height: 60vh;
-  }
-  .div3 {
-    margin-top: 10vh;
-  }
-  .comm div {
-    height: 40vh;
-  }
-
-  .div4 {
-    margin-top: 20vh;
   }
 }
